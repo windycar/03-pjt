@@ -1,0 +1,210 @@
+{
+  "base_url": "https://windycar.github.io/03-pjt/",
+  "checked": 48,
+  "failures": [],
+  "html_matches": {
+    "index.html": {
+      "status": 200,
+      "matches_commit": true
+    },
+    "07-book_detail.html": {
+      "status": 200,
+      "matches_commit": true
+    }
+  },
+  "requests": [
+    {
+      "file": "01-navbar.html",
+      "status": 200
+    },
+    {
+      "file": "02-bestseller.html",
+      "status": 200
+    },
+    {
+      "file": "03-ai_recommendation.html",
+      "status": 200
+    },
+    {
+      "file": "04-genre_list.html",
+      "status": 200
+    },
+    {
+      "file": "04-genre_list_grid.html",
+      "status": 200
+    },
+    {
+      "file": "05-popular_thread.html",
+      "status": 200
+    },
+    {
+      "file": "06-main.html",
+      "status": 200
+    },
+    {
+      "file": "07-book_detail.html",
+      "status": 200
+    },
+    {
+      "file": "index.html",
+      "status": 200
+    },
+    {
+      "file": "assets/ai_recommendation/img1.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/ai_recommendation/img2.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/ai_recommendation/img3.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img1.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img10.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img11.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img12.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img2.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img3.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img4.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img5.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img6.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img7.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img8.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/bestsellers/img9.jpeg",
+      "status": 200
+    },
+    {
+      "file": "assets/book_detail/book_cover.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/fonts/GmarketSansTTFBold.ttf",
+      "status": 200
+    },
+    {
+      "file": "assets/fonts/GmarketSansTTFLight.ttf",
+      "status": 200
+    },
+    {
+      "file": "assets/fonts/GmarketSansTTFMedium.ttf",
+      "status": 200
+    },
+    {
+      "file": "assets/fonts/SBAggroOTF_B.ttf",
+      "status": 200
+    },
+    {
+      "file": "assets/fonts/SBAggroOTF_L.ttf",
+      "status": 200
+    },
+    {
+      "file": "assets/fonts/SBAggroOTF_M.ttf",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/art.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/baby.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/economy.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/health.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/history.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/natural_science.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/philosophy.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/romance.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/travel.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/genre/youth.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/nav/hero_image.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/threads/img1.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/threads/img2.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/threads/img3.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/threads/img4.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/threads/img5.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/threads/img6.jpg",
+      "status": 200
+    }
+  ],
+  "source_commit": "c66979c84739252edd004f8ac92a41eb1d8dfc62"
+}
