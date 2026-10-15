@@ -1,0 +1,23 @@
+{
+  "modalResults": [
+    {
+      "button": "취소",
+      "passed": true
+    },
+    {
+      "button": "로그아웃",
+      "passed": true
+    },
+    {
+      "button": "닫기",
+      "passed": true
+    },
+    {
+      "button": "outside click",
+      "passed": true
+    }
+  ],
+  "carouselNext": true,
+  "carouselAutoplay": true,
+  "detailTabs": true
+}
