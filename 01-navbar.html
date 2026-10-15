@@ -100,7 +100,7 @@
         color: #fe4a51;
         font-family: "GmarketSansTTFMedium";
       }
-      @media (max-width: 576px) {
+      @media (max-width: 575.98px) {
         .d-412-break {
           display: block;
         }
@@ -125,17 +125,10 @@
     </style>
   </head>
   <body>
-    <!-- 1. Navbar 섹션: 아래의 주석을 참고하여 Bootstrap Navbar 컴포넌트를 사용하여 구현할 것 -->
-    <!-- 
-      요구사항:
-      - 좌측: 로고 텍스트 “ThRead” (“Th”: 흰색, “Read”: 붉은색, 글꼴: GmarketSansTTFMedium)
-      - 우측: 메뉴 항목 “쓰레드”, “도서 검색”, “마이 페이지”, “로그아웃” (텍스트 흰색, hover 시 붉은색, 글꼴: SBAggro_L)
-      - Navbar 배경: 투명, Hero 이미지 위에 배치
-      - 화면 폭 576px 이하일 경우 햄버거 메뉴(toggle) 사용
-      - Navbar는 페이지 최상단에서 absolute 위치, z-index: 1000 이상 설정
-    -->
 
-    <!-- 여기에 Navbar 코드를 작성하세요 -->
+
+
+
     <nav
       class="navbar navbar-expand-sm position-absolute top-0 start-0 w-100"
       data-bs-theme="dark"
@@ -157,9 +150,9 @@
         </button>
         <div class="collapse navbar-collapse" id="mainNavbar">
           <ul class="navbar-nav ms-auto text-end">
-            <li class="nav-item"><a class="nav-link" href="#">쓰레드</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">도서 검색</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">마이 페이지</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#threads">쓰레드</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#genres">도서 검색</a></li>
+            <li class="nav-item"><a class="nav-link" href="#myPageNotice" data-bs-toggle="modal" data-bs-target="#myPageNotice">마이 페이지</a></li>
             <li class="nav-item"><a class="nav-link" href="#">로그아웃</a></li>
           </ul>
         </div>
@@ -180,6 +173,24 @@
         </div>
       </div>
     </section>
+
+
+    <!-- 메뉴 이름과 실제 이동 목적을 일치시키는 안내 Modal -->
+    <div class="modal fade" id="myPageNotice" tabindex="-1"
+      aria-labelledby="myPageNoticeLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="myPageNoticeLabel">마이 페이지</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+          </div>
+          <div class="modal-body">마이 페이지는 준비 중입니다.</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">확인</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script

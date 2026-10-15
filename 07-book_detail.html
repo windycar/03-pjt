@@ -244,7 +244,7 @@
           <ul class="navbar-nav ms-auto text-end">
             <li class="nav-item"><a class="nav-link" href="index.html#threads">쓰레드</a></li>
             <li class="nav-item"><a class="nav-link" href="index.html#genres">도서 검색</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html#recommendations">마이 페이지</a></li>
+            <li class="nav-item"><a class="nav-link" href="#myPageNotice" data-bs-toggle="modal" data-bs-target="#myPageNotice">마이 페이지</a></li>
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -271,18 +271,15 @@
               <button type="button" class="btn btn-sm btn-wish px-3">
                 <i class="bi bi-archive"></i> 담기
               </button>
-              <span class="book-rank">인기 도서 Top 10</span>
+              <span class="book-rank">도서 상세 정보</span>
             </div>
 
             <div class="book-intro mb-5">
-              <p class="mb-1">
-                노벨 문학상, 인터내셔널 부커상, 산클레멘테 문학상 수상작
-              </p>
-              <p>전세계가 주목한 한강의 역작을 다시 만나다</p>
+              <p class="mb-1">2016년 인터내셔널 부커상 수상작</p>
+              <p>2024년 노벨 문학상 수상 작가 한강의 소설</p>
               <p class="mb-0">
-                2016년 인터내셔널 부커상을 수상하며 한국문학의 입지를 확장시킨
-                한강의 장편소설 『채식주의자』를 15년 만에 새로운 장정으로
-                선보인다.
+                육식을 거부하는 영혜와 그 주변 인물들의 관계를 통해
+                욕망과 폭력, 인간의 몸과 삶에 관한 질문을 다루는 소설입니다.
               </p>
             </div>
 
@@ -291,15 +288,13 @@
               <div>
                 <h2 class="author-name mb-2">한 강</h2>
                 <p class="author-bio mb-0">
-                  1970년 늦은 11월에 태어났다. 연세대 국문과를 졸업한 뒤
-                  1993년 『문학과사회』에 시를 발표하고, 이듬해 서울신문
-                  신춘문예에 단편소설 「붉은 닻」이 당선되면서 소설 창작을
-                  시작했다. 장편소설 『검은 사슴』, 『채식주의자』, 『바람이
-                  분다, 가라』, 『흰』, 『소년이 온다』, 소설집 『여수의 사랑』
-                  등이 있다.
+                  한강은 1970년 11월 27일 광주에서 태어나 연세대학교에서
+                  국문학을 공부했습니다. 『채식주의자』, 『소년이 온다』,
+                  『흰』 등의 작품을 썼으며 2024년 노벨 문학상을 수상했습니다.
                 </p>
               </div>
             </div>
+            <p class="small mt-3"><a class="text-white" href="https://thebookerprizes.com/the-booker-library/authors/han-kang" target="_blank" rel="noopener noreferrer">도서·작가 정보 출처: The Booker Prizes</a></p>
           </div>
 
           <!-- 오른쪽 컬럼: 세부 정보 탭 -->
@@ -465,6 +460,24 @@
             >
               로그아웃
             </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 메뉴 이름과 실제 이동 목적을 일치시키는 안내 Modal -->
+    <div class="modal fade" id="myPageNotice" tabindex="-1"
+      aria-labelledby="myPageNoticeLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="myPageNoticeLabel">마이 페이지</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+          </div>
+          <div class="modal-body">마이 페이지는 준비 중입니다.</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">확인</button>
           </div>
         </div>
       </div>

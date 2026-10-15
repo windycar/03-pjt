@@ -35,12 +35,13 @@
         margin: 0 auto;
       }
 
-      /* Flexbox 그리드 컨테이너 (직접 작성할 것) */
+      /* Flexbox 장르 목록 */
       .genre-grid {
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
         width: 100%;
+        max-width: calc(200px * 4 + 1.5rem);
         margin: 0 auto;
       }
       .genre-item {
@@ -96,13 +97,8 @@
   <body>
     <section class="genre-books py-5">
       <h3 class="section-title text-center mb-4">장르별 도서 목록</h3>
-      <!-- 
-        [과제 안내]
-        아래 영역에 Flexbox 컨테이너(예: <div class="genre-grid">)를 만들고,
-        각 장르 아이템을 4열로 배치하는 코드를 작성하세요.
-        * 화면 폭 576px 이하에서는 1열로 배치되도록 미디어 쿼리가 적용되어야 합니다.
-      -->
-      <!-- 코드는 여기에 작성하시오 -->
+
+
       <div class="genre-grid">
         <div class="genre-item">
           <img src="assets/genre/travel.jpg" alt="여행" />

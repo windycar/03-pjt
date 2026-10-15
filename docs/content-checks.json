@@ -1,0 +1,17 @@
+{
+  "book_count": 12,
+  "book_alt_matches_title": true,
+  "standalone_books_equal_main": true,
+  "genre_count": 10,
+  "standalone_genres_equal_main": true,
+  "thread_count": 6,
+  "standalone_threads_equal_main": true,
+  "index_equals_main": true,
+  "section_order": [
+    "hero-section",
+    "bestseller py-5",
+    "ai-section pb-5",
+    "genre-books py-5",
+    "thread py-5 bg-light"
+  ]
+}
